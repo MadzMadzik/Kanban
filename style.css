@@ -1,0 +1,85 @@
+body {
+  font-family: 'Inconsolata', cursive;
+  color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  box-shadow: 10px 10px 10px #2C1509;
+  border-radius: 10px;
+  background-color: #944820;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column-container {
+  display: flex;
+}
+
+.column {
+  justify-content: center;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #944820;
+  min-width: 240px;
+  box-shadow: 10px 10px 10px #2C1509;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+p,
+button {
+  padding: 10px 40px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  background-color: #F2CF66;
+  border-bottom: 5px solid #AD9448;
+  text-shadow: 0px -2px #D1B358;
+  text-decoration: none;
+}
+
+li > button,
+p {
+  background-color: #E3C793;
+  border-bottom: 5px solid #9E8B66;
+}
+
+.btn-delete {
+  font-size: 10px;
+  padding: 10px;
+  height: 40px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+
+.card {
+  display: flex;
+  list-style: none;
+}
+
